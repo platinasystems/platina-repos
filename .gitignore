@@ -1,0 +1,11 @@
+*~
+*#*#
+/*.gpg
+/*.list
+/debian/.debhelper/
+/debian/debhelper-build-stamp
+/debian/files
+/debian/platina-apt-source/
+/debian/platina-archive-keyring/
+/debian/*.debhelper.log
+/debian/*.substvars

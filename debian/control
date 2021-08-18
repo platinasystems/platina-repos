@@ -1,0 +1,21 @@
+Source: platina-repos
+Section: net
+Priority: optional
+Maintainer: Kevin Paul Herbert <kph@platinasystems.com>
+Build-Depends: debhelper (>= 10)
+Standards-Version: 3.9.8
+Homepage: https://platinasystems.com
+Vcs-Browser: https://github.com/platinasystems/platina-repos
+Vcs-Git: https://github.com/platinasystems/platina-repos.git
+
+Package: platina-archive-keyring
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, gnupg
+Description: Platina systems GPG signing keys
+ GPG signing keys for Platina Systems products.
+
+Package: platina-apt-source
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Platina systems APT repositories
+ APT repositories for Platina Systems products.

@@ -1,0 +1,9 @@
+The Debian Package platina-repos
+----------------------------
+
+Comments regarding the Package
+
+This package contains the APT repositories and GPG keys for Platina
+Systems.
+
+ -- Kevin Paul Herbert <kph@platinasystems.com>  Tue, 17 Aug 2021 09:28:36 -0700
