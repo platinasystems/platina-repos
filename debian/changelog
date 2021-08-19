@@ -1,3 +1,9 @@
+platina-repos (1.1~alpha.0) unstable; urgency=medium
+
+  * Platina buster-unstable
+
+ -- Kevin Paul Herbert <kph@platinasystems.com>  Wed, 18 Aug 2021 22:20:57 -0700
+
 platina-repos (1.0~alpha.0) unstable; urgency=medium
 
   * Initial Release.

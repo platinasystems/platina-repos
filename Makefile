@@ -15,7 +15,7 @@ platina-keys:
 	$(GPG) --export > $(APTKEY)
 
 platina-sources:
-	echo "deb https://platina.io/goes/debian stretch main" > $(SOURCE)
+	echo "deb https://platina.io/goes/debian buster-unstable main" > $(SOURCE)
 
 install:
 #	$(INSTALL) -d $(DESTDIR)/etc/apt/sources.list.d
