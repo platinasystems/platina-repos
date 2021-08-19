@@ -5,7 +5,7 @@ KEYRING=platina-keyring.gpg
 
 SOURCE=platina_io_goes_debian.list
 
-GPG=/usr/bin/gpg --no-default-keyring --keyring ./$(KEYRING)
+GPG=/usr/bin/gpg --no-options --no-default-keyring --keyring ./$(KEYRING)
 
 all: platina-keys platina-sources
 
