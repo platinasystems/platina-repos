@@ -11,7 +11,7 @@ all: platina-keys platina-sources
 
 platina-keys:
 	rm -f $(APTKEY) $(KEYRING)
-	$(GPG) --import gpg/*.key
+	$(GPG) --import gpg/*.key gpg/*.asc
 	$(GPG) --export > $(APTKEY)
 
 platina-sources:
