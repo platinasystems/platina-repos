@@ -1,3 +1,10 @@
+platina-repos (1.0) unstable; urgency=medium
+
+  * Allow keys with .asc type
+  * Add tgrennan's keys.
+
+ -- Kevin Paul Herbert <kph@platinasystems.com>  Fri, 20 Aug 2021 11:14:33 -0700
+
 platina-repos (1.0~alpha.0) unstable; urgency=medium
 
   * Initial Release.
